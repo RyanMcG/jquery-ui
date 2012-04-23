@@ -11,7 +11,7 @@ concat:
 		ui/jquery.ui.button.js\
 		datepicker-rewrite/localization.js datepicker-rewrite/date.js \
 		datepicker-rewrite/picker.js datepicker-rewrite/jquery.tmpl.js > \
-	       	jquery.ui.datepicker-accessible.cat.js
+		jquery.ui.datepicker-accessible.cat.js
 
 minify:
 	uglifyjs jquery.ui.datepicker-accessible.cat.js > \
